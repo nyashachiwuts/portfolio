@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background: #1a2d59;
+}
+footer {
+    width: 100%;
+    height: 500px;
+    background: #1a2d59;
+}
+
+.container-fluid {
+    padding: 0;
+}
+.row {
+    margin: 0;
+}
+
+.overlay {
+    background: linear-gradient(90deg, rgba(0,0,0,0.9) 40%, rgba(0,0,0,0.1));
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.dot {
+    color: #F9007A;
+}
+.dot-alt {
+    color: #1a2d59;
+}
+
+.header {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: calc(100vh - 50px);
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.header h1 {
+    font-size: 64px;
+    margin-bottom: 48px;
+    border-left: 8px solid #F9007A;
+    padding-left: 16px;
+    font-weight: 600;
+}
+.header p {
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 32px;
+}
+.header button, .mission button {
+    border:1px solid #fff;
+    font-size: 16px;
+    background: unset;
+    border-radius: 0;
+    color:#fff;
+}
+.header button:hover, .mission button:hover {
+    border:1px solid #F9007A;
+    background:#F9007A;
+    color:#fff;
+}
+
+.mission {
+    margin: 0 auto;
+    padding: 120px;
+    background: #1a2d59;
+    color: #fff;
+}
+.mission h1 {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.mission p {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+.underline {
+    width: 80px;
+    height: 10px;
+    background: #F9007A;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.value {
+    margin: 64px;
+}
+
+.box-text {
+    padding: 80px;
+}
+.box-text h1 {
+    font-size: 40px;
+    margin-bottom: 32px;
+    font-weight: 400;
+}
+.box-text p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.box-text-alt {
+    padding: 48px 24px;
+    background: #F9007A;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.focus {
+    margin: 64px;
+}
+.focus h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+.focus p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.how {
+    border-top: 4px solid #1a2d59;
+    border-bottom: 4px solid #1a2d59;
+    margin-bottom: 120px;
+}
+.how-text {
+    padding: 48px;
+}
+.how-text h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.how-text ul{
+    list-style: none;
+}
+.how-text ul li::before {
+    content: "\2022"; 
+    color: #F9007A;
+    font-weight: bold;
+    display: inline-block;
+    width: 16px; 
+    margin-left: -16px;
+}
+.fancy-title {
+    background: #1a2d59;
+    padding: 64px;
+    color: #fff;
+}
+.rb {
+    background: #fafafa;
+}
+
+.courses {
+    margin-top: 64px;
+}
+.courses img {
+    width: 64px;
+}
+.courses-h {
+    font-size: 18px;
+    margin-top: 64px;
+    font-style: italic;
+    font-weight: 300;
+}
+.courses p {
+    font-size: 16px;
+    padding: 8px;
+}
