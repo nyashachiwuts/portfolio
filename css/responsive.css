@@ -10,7 +10,7 @@ html {
         padding: 24px;
     }
     .header h1 {
-        font-size: 48px;
+        font-size: 40px;
         margin-bottom: 40px;
     }
     .header p {
@@ -22,15 +22,15 @@ html {
         width: 100%;
         margin-bottom: 16px;
     }
-    .mission {
+    .intro {
         padding: 54px 24px;
     }
-    .mission h1, .box-text h1 {
+    .intro h1, .box-text h1 {
         font-size: 32px;
         margin-bottom: 24px;
     }
-    .mission p, .box-text p {
-        font-size: 18px;
+    .intro p, .box-text p {
+        font-size: 16px;
         margin-bottom: 24px;
     }
     .value {

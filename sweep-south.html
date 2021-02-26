@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SweepSouth: UX Report</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header class="container-fluid header" style="background: url(images/sweepsouth-banner.jpg); background-size: cover; background-position: center;">
+        <div class="overlay" style="background: linear-gradient(90deg, #5DA2EB 40%, rgba(0,0,0,0.1));"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="feature-title">SweepSouth:<br>My User Journey</h1>
+                    <p>UX Research</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--intro-->
+    <div class="container-fluid" style="background: #F1F5F8;">
+        <div class="container text-left intro">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="main-title">Introduction</h1>
+                    <p>Conceived in 2013, the idea of ‘sweeping the South’ came from a need to improve the quality and efficiency of the domestic services industry in South Africa. It is safe to say that they have done a pretty good job of connecting service providers, aptly named SweepStars, and the rest of us.</p>
+                    <p>From an average persona’s point of view, SweepSouth is a mobile application that offers a quick and hassle free way of getting your home cleaned. It is pretty straight forward as we shall see further on in this brief dive of the User Experience.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-lg-4 role">
+                    <p><span>Description:</span><br>Going through the SweepSouth user journey to indefify all if any user experience pitfalls.</p>
+                </div>
+                <div class="col-xs-12 col-lg-4 role">
+                    <p><span>Roles:</span><br>UI Designer<br>UX Designer</p>
+                </div>
+                <div class="col-xs-12 col-lg-4 role">
+                    <p><span>Year:</span> <br> 2020</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--issue-->
+    <div class="container-fluid">
+        <div class="container text-left issue-text">
+            <div class="col-12">
+                <h1 class="main-title">Booking A Clean</h1>
+                <p>Booking a clean on the mobile application was a fairly positive experience as I shall demonstrate below. Take note that at the time of booking, I was already enrolled into the Sweep South database i.e. not a new user. I also received a R300 cleaning voucher for use in this exercise.
+                    I have created a simple emoji based scale to showcase my emotions as I go through my journey.
+                </p>
+            </div>
+            <div class="row issue">
+                <div class="col-12 issue-image"><img style="width: 100%;" src="./images/sweepsouth-booking.png"/></div>
+            </div>
+        </div>
+        <div class="container text-left issue-text">
+            <div class="col-12">
+                <h1 class="main-title">Booking A Clean: Recommendations</h1>
+                <p>
+                    As simple as the booking process is, there are couple of areas I would ‘tweak’ to make it a little smoother.
+                </p>
+            </div>
+            <div class="row issue">
+                <div class="col-lg-8 col-md-8 col-xs-12 issue-image"><img style="border-radius: 12px; width: 100%;" src="./images/sweepsouth-rec1.png"/></div>
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <ol>
+                        <li>Colour: More blue & other colours.<br>
+                            Although the components are distinguishable by drop shadows, the blue on white makes it a little difficult to instantly segment the app particularly around the bottom half.</li>
+                            <br>
+                        <li>Layout: Move the history button.<br>
+                            It does seem intuitive to put the two buttons ‘booking’ and ‘history’ next to each other. However, we could make better use of the space on the top right and eliminate the very likely scenario of hitting the wrong button when attempting to book a clean or view the history.</li>
+                    </ol>
+                    <p>Business Input: Light <br>
+                    These changes are cosmetic at best therefore a simple “go ahead” will suffice.</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="container text-left issue-text">
+            <div class="col-12">
+                <h1 class="main-title">Appointment Day</h1>
+                <p>
+                    The day has arrived! I am getting a clean house. Sadly, my experience was a little below the usual standard.
+                </p>
+            </div>
+            <div class="row issue">
+                <div class="col-12 issue-image"><img style="width: 100%;" src="./images/sweepsouth-appointment.png"/></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background: #F1F5F8;">
+        <div class="container text-left issue-text" style="background: #F1F5F8;">
+            <div class="col-12">
+                <h1 class="main-title">Appointment Day: Recommendations</h1>
+            </div>
+            <div class="row issue">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <p>
+                        1. GPS Usage: Devices<br><br>
+                        Asking for directions is recurring theme on the day of the appointment. What I realise is that the SweepStars either neglect to use GPS or perhaps their devices are limited somehow (mobile data, etc...). I believe some emphasis on this GPS usage would benefit the service. An extreme recommendation would be providing dedicated work devices.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <p>
+                        2. GPS Usage: Geolocation<br><br>
+                        Locate the SweepStar in real time and automatically update their arrival via geolocation and not via a button in their version of the app. In my most recent experience, I waited 23 minutes for the SweepStar to arrive after their status had been updated to ‘Arrived’ from ‘En Route’. 
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <p>
+                        Business Input: Medium<br>
+                        <ul>
+                            <li>We may need to purchase dedicated mobile devices for the SweepStars to use whilst on duty.</li>
+                            <li>A few updates to the app which will require resources (devs, money, time) to implement.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-left issue-text">
+        <div class="col-12">
+            <h1 class="main-title">Implementation (Rollout)</h1>
+            <p>
+                Implementing a new feature or an update can be a very complicated procedure if its not handled very well. I will illustrate, very simply, how I would roll out the UI update.
+            </p>
+        </div>
+        <div class="row issue">
+            <div class="col-12 issue-image"><img style="width: 100%;" src="./images/sweepsouth-rollout.png"/></div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background: #5DA2EB; color: #fff;">
+        <div class="container text-left issue-text">
+            <div class="col-12">
+                <h1 class="main-title">Conclusion</h1>
+                <p>
+                    Sweep South has come a long way since its beginning and they have a long way to go still. This definitely excites me because so far, it is quite good. The technology recommendations in my report were just but a few of many little pickings I have with the current application and mobile applications in general.
+                </p>
+                <p>
+                    When rolling out a new feature or an update, there definitely isn’t a “one side fits all” approach. Everything requires its own set of rules and resources that allow us to build new features with the least number of complications and procedures.
+                </p>
+                <p>
+                    Overall, I have always enjoyed using the SweepSouth service and that will probably remain the same for me for as long as they are around to pick up my call.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

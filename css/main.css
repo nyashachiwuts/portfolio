@@ -27,7 +27,6 @@ footer {
 }
 
 .overlay {
-    background: linear-gradient(90deg, rgba(0,0,0,0.9) 40%, rgba(0,0,0,0.1));
     position: absolute;
     min-height: 100%;
     width: 100%;
@@ -35,19 +34,8 @@ footer {
     top: 0;
 }
 
-.dot {
-    color: #F9007A;
-}
-.dot-alt {
-    color: #1a2d59;
-}
-
 .header {
-    background: url(../images/banner.jpg);
-    background-size: cover;
-    background-position: center;
     position: relative;
-    height: calc(100vh - 50px);
     padding: 80px;
     display: flex;
     justify-content: center;
@@ -55,58 +43,78 @@ footer {
     color: #fff;
 }
 .header h1 {
-    font-size: 64px;
+    font-size: 48px;
     margin-bottom: 48px;
-    border-left: 8px solid #F9007A;
-    padding-left: 16px;
+    border-left: 8px solid #fff;
     font-weight: 600;
+    padding-left: 16px;
 }
 .header p {
     font-size: 24px;
     font-weight: 200;
     margin-bottom: 32px;
 }
-.header button, .mission button {
-    border:1px solid #fff;
-    font-size: 16px;
-    background: unset;
-    border-radius: 0;
-    color:#fff;
-}
-.header button:hover, .mission button:hover {
-    border:1px solid #F9007A;
-    background:#F9007A;
-    color:#fff;
+
+.main-title {
+    font-size: 24px;
+    font-weight: 600;
 }
 
-.mission {
+.intro {
     margin: 0 auto;
-    padding: 120px;
-    background: #1a2d59;
-    color: #fff;
+    padding: 80px 24px;
+    color: #000;
 }
-.mission h1 {
-    font-size: 40px;
-    margin-bottom: 32px;
-}
-.mission p {
-    font-size: 18px;
+.intro p {
+    font-size: 16px;
     margin-bottom: 24px;
 }
-.underline {
-    width: 80px;
-    height: 10px;
-    background: #F9007A;
-    margin: 0 auto;
-    margin-bottom: 32px;
+
+.role  {
+    margin: 0;
+    padding: 0;
+    padding-right: 24px;
+}
+.role span {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.issue {
+    padding: 24px 0;
+}
+.issue-image {
+    width: 100%;   
+    min-height: 200px; 
+    border-radius: 12px;
+    padding: 16px;
+    color: #053368;
+}
+.issue-text {
+    padding: 80px 12px;
 }
 
 .value {
-    margin: 64px;
+    padding: 80px 24px;
 }
 
+.problem {
+    margin: 0 auto;
+    padding: 80px 24px;
+    color: #fff;
+}
+.problem h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.problem p {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+
 .box-text {
-    padding: 80px;
+    padding: 24px;
 }
 .box-text h1 {
     font-size: 40px;
