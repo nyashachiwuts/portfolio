@@ -68,7 +68,7 @@
     transition: all 0.3s ease-out;
     visibility: hidden;
     opacity: 0;
-    line-height: 96px;
+    line-height: 60px;
 }
 .close-btn {
     position: absolute;
