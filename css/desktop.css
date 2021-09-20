@@ -233,9 +233,16 @@ body {
   left: 0;
   z-index: 1;
   padding: 24px;
+  line-height: 22px;
+  font-weight: 400;
 }
 .read-more span {
-  font-size: 12px;
+  font-size: 13px;
+  line-height: 32px;
+  font-weight: 300;
+}
+.read-more p {
+  margin-bottom: 4px !important;
 }
 
 .main-title {

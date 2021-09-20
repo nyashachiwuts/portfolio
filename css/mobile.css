@@ -4,9 +4,8 @@
     background-size: cover;
   }
   .header h1 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 40px !important;
-    text-align: center;
     margin-top: 96px;
   }
   .header-work {
@@ -17,9 +16,6 @@
   }
   .header-work h1 {
     font-size: 32px;
-  }
-  .header p {
-    text-align: center;
   }
 
   #toggle {
