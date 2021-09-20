@@ -6,7 +6,7 @@
   .header h1 {
     font-weight: 600;
     font-size: 40px !important;
-    margin-top: 96px;
+    margin-top: 66px;
   }
   .header-work {
     position: relative;
@@ -47,6 +47,10 @@
 
   .feature-title {
     font-size: 32px;
+  }
+
+  .card {
+    opacity: 1 !important;
   }
 }
 
