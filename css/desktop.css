@@ -189,7 +189,12 @@ body {
 
 /*--work--*/
 .overlay {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0));
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 20%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
   border-radius: 0 0 8px 8px;
   position: absolute;
   min-height: 60%;
