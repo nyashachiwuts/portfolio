@@ -8,6 +8,9 @@
     font-size: 40px !important;
     margin-top: 66px;
   }
+  .header p {
+    font-size: 20px;
+  }
   .header-work {
     position: relative;
     top: 96px;
