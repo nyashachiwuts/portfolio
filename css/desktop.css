@@ -130,7 +130,7 @@ body {
 }
 
 .social {
-  width: 20px;
+  width: 22px;
   margin-right: 5px;
   border-radius: 50%;
   background: #fff;
@@ -185,6 +185,13 @@ body {
   font-size: 24px;
   font-weight: 200;
   margin-bottom: 32px;
+}
+.resume {
+  color: #000;
+}
+.resume:hover {
+  color: #ff4b1f !important;
+  text-decoration: none;
 }
 
 /*--work--*/
