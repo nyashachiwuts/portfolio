@@ -273,7 +273,8 @@ body {
   border: unset;
   background: #000;
   opacity: 0.9;
-  text-align: center;
+  text-align: left;
+  padding: 24px;
 }
 
 .read-more {
