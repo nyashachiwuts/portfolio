@@ -265,6 +265,7 @@ body {
 }
 
 .price-card {
+  min-height: 312px;
   height: auto;
   padding: 24px;
   border-radius: 8px;
